@@ -1,0 +1,47 @@
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-top: 1rem;
+  }
+  .task-group .form-group{
+    width: 45%;
+  }
+  .task-group{
+    display: flex;
+    justify-content:space-between;
+  }
+  label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .btn-add{
+    width: 100%;
+    height:2rem;
+    background-color: #5CB85C;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  textarea{
+    min-height:125px;
+    padding: 4px 8px;
+  }
+  input[type='text'], select, input[type='date']{
+    width: 100%;
+    min-height:2rem;
+  }
+  input[type='text']{
+    padding:4px 8px;
+  }
+  @media only screen and (max-width: 480px){
+    .task-group{
+     flex-direction: column;
+    }
+    .task-group .form-group{
+      width: 100%;
+    }
+  }

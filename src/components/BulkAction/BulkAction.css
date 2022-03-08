@@ -1,0 +1,15 @@
+.bulk-action{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #e0e0e0;
+    border-top: 1px solid #000;
+    width: 100%;
+    padding:2rem;
+  }
+  .bulk-action .btn-detail, .bulk-action .btn-delete{
+    height:36px;
+    width: 110px;
+  }

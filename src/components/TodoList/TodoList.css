@@ -1,0 +1,42 @@
+.todo-container{
+  margin-bottom:5rem
+}
+.search{
+    margin-bottom:1rem;
+  }
+  .btn-detail{
+    background-color: #00BCD4;
+    margin-right: 1rem;
+  }
+  .btn-delete{
+    background-color: #D9534F;
+  }
+  input[type='checkbox']{
+    width: 16px;
+    height:16px;
+    margin-right: 1rem;
+  }
+  .btn-hidden{
+    display: none;
+  }
+  .header-todo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .add-todo{
+    background-color: #26b764;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: #fff;
+    box-shadow: 0 10px 10px -5px #b9e3eacc;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  @media only screen and (max-width: 1024px){
+    .btn-hidden{
+     display: block;
+    }
+  }

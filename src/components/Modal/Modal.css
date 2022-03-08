@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-message {
+    width: 600px;
+    color: #6b6464;
+    background-color: #fef8fe;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 25px;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    z-index: 101;
+    transform: translate(-50%, -65%);
+}
+.modal-Title h4 {
+    font-size: 24px;
+    margin: 20px 0px;
+
+}
+.modal-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.modal-Content{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-close {
+    position: fixed;
+    top: -5px;
+    right: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 28px;
+    height: 28px;
+   
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+@media only screen and (max-width: 768px) {
+    .modal-message {
+        max-width: 400px;
+    }
+}
+.modal-Title{
+    background-color: #f57c7c;
+}
+
+.btn-close{
+    background-color: #f8f5f5;
+    color:#f57c7c
+}
+@media only screen and (max-width: 480px){
+    .modal-message {
+        max-width: 310px;
+    }
+}
+
